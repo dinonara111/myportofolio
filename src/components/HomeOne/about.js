@@ -17,7 +17,7 @@ function About() {
             <div id="about" className="container-about">
             <img src="/images/2.png" alt="poto profil" />
                 <h1 style={{ margin: '50px' }}>
-                    <span className="static-text">Hii Aku Elisa Ambarwati ☺ </span>
+                    <span className="static-text">Hii Aku Elisa Ambarwati  </span>
                 </h1>
                 <p style={{color:"white"}}>
                     <span className="about-text">
