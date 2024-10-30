@@ -1,0 +1,85 @@
+.container-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "IBM Plex Mono", monospace;
+    min-height: 85vh;
+    background-color: #ffefd5;
+    color: #000000;
+    padding: 60px 20px;
+    gap: 20px; /* Jarak antar elemen */
+}
+
+.container-profil h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4169e1;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.container-profil p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border: none;
+    border-bottom: 2px dashed #fa8072;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    padding: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efek hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card p, .card ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666666;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .container-profil {
+        padding: 40px 15px;
+    }
+
+    .container-profil h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        padding: 15px;
+        min-height: 180px;
+    }
+}
